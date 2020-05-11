@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 清水点点
+subtitle: 生活就像一潭清水，还有点点涟漪。
+description: 在纷繁的世界里遨游，向往着平凡的安宁的一生。记录你我遨游的众生像。有缘人可以用任何方式来聊一聊。
+keywords: 程序 生活 态度 
+author: whartonyang
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://39.98.150.68
+url: http://moluyun.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -101,3 +101,9 @@ deploy:
   type: git
   repo: bloguser@39.98.150.68:/var/repo/hexo_static
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
