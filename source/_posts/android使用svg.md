@@ -1,7 +1,7 @@
 ---
 title: android使用svg
 tags: android svg
-Categories: android
+categories: android
 date: 2020-05-17 17:48:15
 ---
 
